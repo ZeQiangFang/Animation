@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ViewAnimationActivity">
+
+    <TextView
+        android:id="@+id/tv_alpha"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpha" />
+
+    <TextView
+        android:id="@+id/tv_scale"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale" />
+
+    <TextView
+        android:id="@+id/tv_translate"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate" />
+
+
+    <TextView
+        android:id="@+id/tv_rotate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate" />
+
+    <TextView
+        android:id="@+id/tv_set"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set" />
+
+    <TextView
+        android:id="@+id/tv_accelerate"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Accelerate" />
+
+    <TextView
+        android:id="@+id/tv_linear"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Linear" />
+
+</LinearLayout>
